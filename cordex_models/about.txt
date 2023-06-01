@@ -1,0 +1,31 @@
+En esta carpeta van los archivos de los datasets.
+En un primer nivel se dividen por variable.
+En un segundo nivel se dividen por dataset.
+
+Ejemplo:
+
+cordex_models
+|
+|__huss
+|  |__huss_cordex_model_1
+|  |  |__huss_cordex_model_1_1940-1979.nc
+|  |  |__huss_cordex_model_1_1980-2014.nc
+|  |  |__(muchos más archivos)
+|  |
+|  |__huss_cordex_model_2
+|  |  |__huss_cordex_model_2_1940-1979.nc
+|  |  |__huss_cordex_model_2_1980-2014.nc
+|  |  |__(muchos más archivos)
+|
+|
+|__pr
+|  |__pr_cordex_model_1
+|  |  |__pr_cordex_model_1_1940-1979.nc
+|  |  |__pr_cordex_model_1_1980-2014.nc
+|  |  |__(muchos más archivos)
+|  |
+|  |__pr_cordex_model_2
+|  |  |__pr_cordex_model_2_1940-1979.nc
+|  |  |__pr_cordex_model_2_1980-2014.nc
+|  |  |__(muchos más archivos)
+
