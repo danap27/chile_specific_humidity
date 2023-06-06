@@ -27,5 +27,16 @@ def sort_model_files_by_folder(data_path):
         print(f'Archivo {f} movido a {model}')
     print('Archivos movidos correctamente.')
 
-sort_model_files_by_folder('proyecto/cordex_models')
+def print_tree_folders(path):
+    """
+    Imprime la estructura de directorios de un directorio dado.
+    Ignora los archivos sueltos
+    """
+    for root, dirs, files in os.walk(path):
+        level = root.replace(path, '').count(os.sep)
+        indent = ' ' * 4 * (level)
+        print(f'{indent}{os.path.basename(root)}/')
+        subindent = ' ' * 4 * (level + 1)
+
+sort_model_files_by_folder('./cordex_models')
 

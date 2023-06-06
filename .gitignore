@@ -1,1 +1,4 @@
 *.nc
+*.sh
+*.status
+__pycache__
