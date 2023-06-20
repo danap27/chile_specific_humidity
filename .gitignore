@@ -2,3 +2,4 @@
 *.sh
 *.status
 __pycache__
+*.zip
